@@ -50,7 +50,7 @@ if(outputfile.is_open())
 {
 for(int i=0;i<n;i++)
 {
-outputfile<<"course"<<i+1<<" :"<<"credits"<<credits[i]<<" ,"<<"grades"<<grades[i]<<endl;
+outputfile<<"course"<<i+1<<" :"<<"credits"<<credits[i]<<" ,"<<"grades"<<grades[i]<<endl; //unline cout output actually display the output in file rather than displaying it in the screen
 }
 
 outputfile<<"total cgpa"<<" "<<cgpa;
@@ -59,7 +59,7 @@ outputfile.close();
 }
 else
 {
-cerr<<"error opening the file";
+cerr<<"error opening the file";  // cerr is primarily used to print error messages or debugging information to the standard error (stderr) stream.
 }
 
 
