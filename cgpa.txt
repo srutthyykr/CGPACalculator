@@ -1,0 +1,9 @@
+course1 :credits6 ,grades7
+course2 :credits6 ,grades6
+course3 :credits10 ,grades7
+course4 :credits8 ,grades8
+course5 :credits4 ,grades6
+course6 :credits3 ,grades6
+course7 :credits2 ,grades10
+course8 :credits1088421888 ,grades8
+total cgpa 7
